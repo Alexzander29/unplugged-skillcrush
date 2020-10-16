@@ -427,6 +427,46 @@ aside {
 
 @media only screen and (min-width: 1200px) {
   /*Desktop Styles*/
+
+  .content-wrapper {
+    width:960px;
+  }
+  .hero-area h1 {
+    width: 100%
+  }
+
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
+  aside .content-wrapper .form-description,
+    aside .content-wrapper .form {
+        width:40%;
+    }
+
+    .features h2 {
+      width:100%;
+    }
+
+    .features article {
+      flex-basis:25%;
+    }
+    .reviews article div {
+        width:100%; 
+    }
+    /*about page*/
+      .mission h2,
+    .contact-section .content-wrapper h2 {
+        width: 100%;
+    }
+    /* ==========================================================================
+   FAQ Page
+   ========================================================================== */
+    .faq h2 {
+        width: 100%;
+    }
+ 
+}
+ 
 }
 
 /* ==========================================================================
