@@ -134,11 +134,11 @@ p {
 }
 
 img {
-
+  width:100%;
 }
 
 figure {
-
+  margin:0;
 }
 
 address {
@@ -147,7 +147,7 @@ address {
 
 .content-wrapper {
   width: 90%;
-  margin: 50px 0;
+  margin: 50px 0; 
 }
 
 
@@ -182,8 +182,11 @@ header nav {
   align-items: center;
   flex-flow: row wrap;
 }
-
+header div a {
+  width:60%;
+}
 header nav ul {
+
   display: flex;
   justify-content:space-around;
   width: 100%;
@@ -237,12 +240,16 @@ footer .copyright {
 
 /*--- Mobile Styles ---*/
 .hero-area {
+  background:url(../img/hero-area.jpg) center no-repeat #333;
+  background-size: cover;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
 }
 /*Aside*/
 aside {
+  background-color:#527158; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -250,6 +257,8 @@ aside {
 }
 /* Features*/
 .features {
+  background:url(../img/circle-group.jpg) center no-repeat #333;
+  background-size: cover; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -284,6 +293,7 @@ aside {
 
 /*About Page*/
 .mission {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -291,6 +301,7 @@ aside {
 }
 
 .contact-section {
+  background-color: #2a423a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -304,6 +315,7 @@ aside {
 /*faqs page*/
 
 .faq {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -482,6 +494,20 @@ input[type=button] {
     flex-direction: row;
   }
 
+  .review-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-direction:row;
+
+  }
+  .review-wrapper figure {
+    width: 49%;
+  }
+  .review-wrapper div {
+    width:49%
+    
+  }
+
   .faq .content-wrapper {
     display: flex;
     justify-content: space-between;
@@ -541,9 +567,7 @@ input[type=button] {
     .features article {
       flex-basis:25%;
     }
-    .reviews article div {
-        width:100%; 
-    }
+    
     /*about page*/
       .mission h2,
     .contact-section .content-wrapper h2 {
