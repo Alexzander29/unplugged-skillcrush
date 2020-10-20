@@ -110,6 +110,10 @@ a {
   color:#e2e3ed;
   text-decoration: none;
 }
+
+.hero-area h1 {
+  font-size: 3.5em;
+}
 h1 {
   text-transform: capitalize;
   font-size: 2.5em;
@@ -117,19 +121,19 @@ h1 {
 
 h2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.875em;
+  font-size: 2em;
 }
 
 h3,
 h4 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.125em;
+  font-size: 1.6em;
   margin: 20px 0;
 }
 
 p {
   color: #c5cccf;
-  font-size: .875em;
+  font-size: 1em;
   line-height: 1.75rem;
 }
 
@@ -344,19 +348,20 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  flex-direction: column;
+
+  
 }
 .faq .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin:0;
 }
 
 .faq h1 {
-  align-self: flex-start;
-  margin-bottom: 40px;
-  margin-left:4%;
+  text-align: left;
+  margin-top:14px;
 }
 
 .faq-content {
@@ -544,6 +549,7 @@ input[type=button] {
   .faq .content-wrapper {
     display: flex;
     justify-content: space-between;
+
     
   }
   .faq .faq-content {
